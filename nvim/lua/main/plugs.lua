@@ -40,9 +40,6 @@ Plug('https://github.com/will/rose-pine-neovim.git')
 --- treesitter
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 
---- Plenary
-Plug('nvim-lua/plenary.nvim')
-
 --- Harpoon
 Plug('ThePrimeagen/harpoon', { ['branch'] = 'harpoon2' })
 
@@ -51,6 +48,9 @@ Plug('mbbill/undotree')
 
 --- Fugitive
 Plug('tpope/vim-fugitive')
+
+--- surround
+Plug('tpope/vim-surround')
 
 --- Lspconfig
 Plug('neovim/nvim-lspconfig')
@@ -84,4 +84,27 @@ Plug("Zeioth/compiler.nvim")
 
 --- Overseer
 Plug("stevearc/overseer.nvim")
+
+--- Org
+Plug("nvim-orgmode/orgmode")
+
+--- Org Roam
+Plug("chipsenkbeil/org-roam.nvim")
+
+--- Bullets
+Plug('akinsho/org-bullets.nvim')
+
+--- Telescope Org
+Plug('nvim-orgmode/telescope-orgmode.nvim')
+
+--- gen.vim
+Plug("David-Kunz/gen.nvim")
+
+--- gp.nvim
+Plug('robitx/gp.nvim')
+
+--- iron
+Plug('Vigemus/iron.nvim')
+
+
 vim.call('plug#end')
